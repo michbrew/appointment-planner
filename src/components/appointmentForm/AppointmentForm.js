@@ -51,14 +51,14 @@ export const AppointmentForm = ({
     
       <form onSubmit={handleSubmit}>
 
-        <label htmlFor="title" for="title">Title:</label>
+        <label htmlFor="title">Title:</label>
         <input type="text"id="title" name="title" onChange={changeHandlerTitle} value={title}/>
         <br/>
 
-        <label htmlFor="date" for="date">Date:</label>
+        <label htmlFor="date">Date:</label>
         <input type="date" id="date" name="date" onChange={changeHandlerDate} value={date} min={getTodayString()}/>
 
-        <label htmlFor="time" for="time">Time:</label>
+        <label htmlFor="time">Time:</label>
         <input type="time" id="time" name="time" value={time} onChange={(e)=> changeHandlerTime(e)}  />
 
         {/*
