@@ -1,0 +1,8 @@
+input, select {
+    background-color: aliceblue;
+    margin: 1rem 0rem;
+}
+
+label {
+    font-weight: 900;
+}

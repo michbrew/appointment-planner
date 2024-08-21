@@ -1,0 +1,16 @@
+* {
+    background-color: #CBE3F6;
+    
+}
+
+.root {
+           
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+
+.rootContainer {
+    display: flex;
+    justify-content: space-around;
+    
+}
