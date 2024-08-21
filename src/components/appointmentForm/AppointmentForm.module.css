@@ -6,3 +6,20 @@ input, select {
 label {
     font-weight: 900;
 }
+
+button, select, option {
+    color: #000;
+  }
+  
+button {
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+select, option {
+    font-size: 1rem;
+}
+
+button:active {
+    transform: scale(.95);
+}
